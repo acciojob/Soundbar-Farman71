@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+ body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #buttons {
+            margin-top: 20px;
+        }
+        .btn, .stop {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn {
+            background-color: #3498db;
+            color: white;
+        }
+        .stop {
+            background-color: #e74c3c;
+            color: white;
